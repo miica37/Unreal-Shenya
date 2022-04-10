@@ -1,2 +1,4 @@
 # Shenya Documentation
-Documentation for Shenya to be hosted on readthedocs.org
+Documentation for Shenya on Unreal Marketplace
+
+* hosted on readthedocs.org (unreal-shenya.readthedocs.org)
