@@ -55,6 +55,10 @@ Polycount
 Retargeting Animations
 ======================
 
+Short Video Demonstration\: `Animation Retargeting in UE4 - Using Meryl as Example <https://www.youtube.com/watch?v=EqlSjc5xunU>`_ (Youtube)
+
+|
+
 Step1: 
 
  - Select the animations that you want to retarget from
@@ -128,11 +132,14 @@ The default skeletal mesh (SK_Shenya) doesn't have a cap on it, to use the cap, 
 .. image:: /images/using-cap1.jpg
 	:align: center
 
+|
+
 The default hair (SK_Shenya_Hairs) will intersect with the cap, so a separate hair mesh (SK_Shenya_Hairs_Capfit) is created to fit it inside the cap.
 
 .. image:: /images/using-cap2.jpg
 	:align: center
 
+|
 
 Two type of mesh are provided for the cap, one is bound to the skeleton (SK_Shenya_Cap), easy to setup but will be very hard to tweak the position and rotation.
 
@@ -157,6 +164,8 @@ Side Note: Echo's Animation is not retargeted inside Unreal Engine but retargete
 
 .. image:: /images/anim-smile-blink.jpg
 	:align: center
+
+|
 
 Anim_Smile_Blink is the only unique animation and it is just blendshapes animation (ie. no skeletal animation data inside).
 
