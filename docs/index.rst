@@ -186,3 +186,15 @@ Credits for Resources Used
 The bird drawing on the tanktop is using photo provided by `BioDivLibrary <https://www.flickr.com/photos/biodivlibrary/7462498198/in/photostream/>`_ (Creative Commons).
 
 |
+
+Updates Log
+===========
+
+1.01 (20/06/2022)
+--------------------
+
+  * Fix incorrect orientation of root bone
+  
+  * Fix incorrect position of IK bones
+
+|
