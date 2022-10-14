@@ -1,0 +1,131 @@
+/*
+
+   Following codes are taken from Blender Manual
+    -https://docs.blender.org/manual/en/dev/index.html
+
+*/
+
+/*boxed paragraphs*/
+.rst-content .refbox .admonition-title {background-color: #bbb}
+.rst-content .refbox {
+	-webkit-font-smoothing: antialiased;
+	background-color: #e3e3e3;
+	line-height: 24px;
+	margin-bottom: 24px; padding: 12px;
+    font-size:14px;
+}
+.rst-content .seealso .admonition-title {background-color: #7a87e6}
+.rst-content .seealso {background-color: #e7ebfa}
+.rst-content .important .admonition-title {background-color: #ddca3b}
+.rst-content .important {background-color: #f6f3a5}
+
+/* my edit */
+.rst-content .hint .admonition-title {background-color: #eeffcc; display: none;}
+.rst-content .hint {background-color: #eeffcc; border: 1px solid #e1e4e5;}
+
+/* refbox =, seealso ( > ), note ( i ), tip i , hint (+), warn / ! \ */
+.refbox .admonition-title::before {content:"\f00b"}
+.seealso .admonition-title::before{content:"\f138"}
+.note .admonition-title::before{content:"\f05a"}
+.tip .admonition-title::before{content:"\f129"; width: 0.75em; text-align: center}
+.hint .admonition-title::before{content:"\f055"}
+.warning .admonition-title::before{content:"\f071"}
+
+/* refbox field */
+.refbox .field-list .field-name, .refbox .field-list .field-body {
+	padding: 0px;
+}
+.refbox .field-name {font-weight: normal}
+
+.refbox dd p {
+    font-size: 0.9em;
+}
+
+.document a {
+    color: #0aaff1;
+}
+
+.document .material {
+    color: #2980b9;
+    font-weight: bold;
+}
+
+.document .material2 {
+    color: #2980b9;
+    font-size: 0.9em;
+    font-weight: bold;
+    /*border: 1px solid #dadddd;*/
+    border-radius: 5px;
+    padding: 3px;
+}
+
+kbd {
+	font-family:"Source Code Pro",monospace;
+	font-size:1em
+	color:#212121;
+	background-color:#f2f2f2;
+	border-radius:.2rem;
+	border:1px solid #cbcbcb;
+	padding:.2rem .4rem;
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.2),inset 0 0 0 2px #fff;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+/*
+   For Characters Documentation
+*/
+
+/* folder representation */
+
+.folder
+{
+    background-color: #f3f6f6;
+    border: 1px solid #dadddd;
+    border-radius: 5px;
+    color: #333333;
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* smaller texts */
+
+.special
+{
+    font-size: 80%;
+}
+
+.tab
+{
+    font-size: 80%;
+    padding-left: 25px;
+    margin-top: -20px;
+}
+
+.bold-italic
+{
+	font-weight: bold;
+	font-style: italic;
+}
+
+.red {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.green {
+	color: #00DD00;
+	font-weight: bold;
+}
+.orange {
+	color: #668500;
+	font-weight: bold;
+}

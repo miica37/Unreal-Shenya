@@ -1,0 +1,11 @@
+docs/_build
+docs/_templates
+docs/images/psd
+make.bat
+Makefile
+*.sublime-project
+*.sublime-workspace
+*.lnk
+*.psd
+*.png
+eyes-color*.png
