@@ -24,25 +24,13 @@ Resources:
    * PDF guide by @smu on `Quang Phan Discord <https://discord.com/channels/512242191465185300/518274796111527948>`_ (you can download the pdf somewhere under #tutorials-ue4)
      \* *There's a section about Weapon alignment at the bottom of the pdf which you might be interested in.*
 
-
-|
-
-Issues
-=================
-
-.. warning::
-   These are among some of the issues that I haven't find how to solve:
-   
-   .. image:: /images/als/issues.jpg
-      :align: center
-
 |
 
 Step by Step Demo
 =================
 
 .. warning::
-   Note that the following guide is made for another character Meryl and I have modified the text to show Charles but the images remains the one from Meryl. I have tested it to verify the steps can be applied to Charles too.
+   Note that the following guide is made for another character Meryl and I have modified the text to show Shenya but the images remains the one from Meryl. (I haven't tested it to verify the steps can be applied to Shenya too.)
 
 .. note::
    Youtube Video:
@@ -55,7 +43,7 @@ Step by Step Demo
 Assign Skeleton
 ---------------
 
-#. This UE4 Project starts with ALS asset and Charles asset.
+#. This UE4 Project starts with ALS asset and Shenya asset.
 
    .. image:: /images/als/launcher-als.jpg
       :align: left
@@ -66,9 +54,9 @@ Assign Skeleton
    .. image:: /images/als/content.jpg
       :align: center
 
-#. Go to folder :folder:`Content ➧ Charles ➧ Meshes`,
+#. Go to folder :folder:`Content ➧ Shenya ➧ Meshes`,
 
-   Select the Skeletal Mesh < SK_Charles > and assign it the skeleton < ALS_Mannequin_Skeleton >
+   Select the Skeletal Mesh < SK_Shenya > and assign it the skeleton < ALS_Mannequin_Skeleton >
 
    .. image:: /images/als/step-assign-skeleton.jpg
       :align: center
@@ -78,7 +66,7 @@ Assign Skeleton
    .. image:: /images/als/content-bp.jpg
       :align: center
 
-   Open the blueprint < ALS_AnimMan_CharacterBP > and change the skeletal mesh to < SK_Charles >.
+   Open the blueprint < ALS_AnimMan_CharacterBP > and change the skeletal mesh to < SK_Shenya >.
 
    .. image:: /images/als/step-bp-change-skeletal-mesh.jpg
       :align: center
@@ -107,7 +95,7 @@ Fix Knees
       .. image:: /images/als/content-animbp.jpg
          :align: center
    
-      Open < ALS_AnimBP > and change the preview mesh to < SK_Charles >.
+      Open < ALS_AnimBP > and change the preview mesh to < SK_Shenya >.
 
       .. image:: /images/als/step-animbp-preview-scene-settings.jpg
          :align: center
@@ -146,9 +134,9 @@ Fix Knees
 Fix Ragdoll
 -----------
 
-   #. Go to folder :folder:`Content ➧ Charles ➧ Meshes`,
+   #. Go to folder :folder:`Content ➧ Shenya ➧ Meshes`,
  
-      Open < SK_Charles_PhysicsAsset >
+      Open < SK_Shenya_PhysicsAsset >
 
    #. Display Bones in Skeleton Tree
 

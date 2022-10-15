@@ -4,6 +4,8 @@
 .. role:: red
 .. role:: green
 .. role:: orange
+.. role:: material
+.. role:: material2
 
 Preview Map
 ===========
@@ -82,6 +84,8 @@ Shenya Skeleton VS UE4 Mannequin Skeleton:
 
 The joint orientation is hand placed so it's not 100% matching but should be pretty close.
 
+There is a socket on the head (headSocket) for attaching static cap or :ref:`dynamic hair <dynamics>`.
+
 Since the body proportion is quite different from UE's mannequin you will need to do some :ref:`retargeting on animations <retarget>`.
 
 .. image:: /images/skeleton.jpg
@@ -131,6 +135,12 @@ UE4 to UE5 Project Conversion:
     :align: center
 
 |
+
+Retargeting in UE5
+==================
+
+You can find two files inside the folder :abbr:`📁Meshes\\UE5 (Shenya\\Meshes\\UE5)` to help you with retargeting in UE5:
+   :material:`IK_Shenya` and :material:`SK_Shenya_UE5` (this is to set the pose)
 
 .. note::
     :ref:`Retargeting Guide for UE5 <retarget_ue5>`

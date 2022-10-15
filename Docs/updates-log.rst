@@ -9,8 +9,11 @@ Updates Log
 
 .. _updates_v2:
 
-2.0 (@@/10/2022)
+2.0 (15/10/2022)
 --------------------
+.. note::
+   Last minute convert [ M_Shenya_Fullbody_Master ] from using **Subsurface** Shading Model to **Subsurface Profile** Shading Model, the skins looks more soft. The effect is subtle but do note that many of the renders in the youtube video as well as many images are not updated to show this
+
 Skeleton:
    * Fixed right arm bones rotated to the back and not being symmetrical to the left arm bone
    * Skeleton is reoriented to match more closely to UE4's mannequin to produce better results when retargeting
@@ -85,7 +88,8 @@ Dynamics:
    *  Added < Hair2_Dynamic > and < Jacket_Dynamic > (with extra bones for dynamic simulations)
 
 Textures:
-   * Added *Master* Textures to be used just for the Master Materials (in the folder :folder:`Shenya\\Textures\\Master` : < T_Master_D >, < T_Master_MRAO >, < T_Master_N >, < T_Master_RGB >)
+   * Added *Master* Textures to be used just for the Master Materials
+      (:abbr:`📁Shenya\\Textures\\Master (Shenya\\Textures\\Master)` : < T_Master_D >, < T_Master_MRAO >, < T_Master_N >, < T_Master_RGB >)
    *  Changed the skin texture. It is now based on the skin texture of another character Meryl. Old texture still exist and renamed to < T_Shenya_Body_D0 > and < T_Shenya_Head_D0 > (added a zero at the end)
    *  Modified the Jeans and Cap base color textures to more neutral grayish for them to work better when tinting (previous colors are too dark to work well with tinting)
    *  Added < T_Shenya_Eyes_D3 > which is based on another character Meryl's eyes texture
@@ -94,10 +98,11 @@ Textures:
    *  Modified Hairs textures which is now slightly thinner and less wavy.
 
 Fbx:
-   * Added Fbx files (in the folder :folder:`Shenya\\Fbx`)
+   * Added **Source** Fbx files (:abbr:`📁Shenya\\Fbx (Shenya\\Fbx)`)
 
 Unreal Engine 5:
-   * Added IK Rig for retargeting in UE5 (in the folder :folder:`Shenya\\Meshes` < IK_Shenya > )
+   * Added IK Rig for retargeting in UE5
+      (:abbr:`📁Shenya\\Meshes\\UE5 (Shenya\\Meshes\\UE5)`: < IK_Shenya >, and < SK_Shenya_UE5 > for setting the pose )
 
 Documentation:
    * More efforts on documentation and updated to reflect new changes
